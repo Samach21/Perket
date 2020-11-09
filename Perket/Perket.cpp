@@ -41,7 +41,6 @@ int main()
 		printf("ERROR");
 		return 1;
 	}
-	printf("%d %d\n", result[0], result[1]);
 	int diff = result[0] - result[1];
 	if (diff < 0)
 	{
